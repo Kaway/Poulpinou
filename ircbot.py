@@ -149,7 +149,7 @@ def main():
 
     global chans, nickname, file_socket
     chans = list(map(arg_to_chan, args.channel_args))
-    nickname = args.nickname[0]
+    nickname = args.nickname[0] if len(args.nickname[0]) > 1 else args.nickname
 
     file_socket = socket.socket()
     file_socket.connect((host, port))
