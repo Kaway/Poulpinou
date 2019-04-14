@@ -1,2 +1,2 @@
 # secret-nemesis
-This bot say "Hi" to you !
+IRC bot which says "Hi" to you !
